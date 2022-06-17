@@ -635,7 +635,7 @@ main .card-body {
 /*Seccion Media Queris*/
 @media (max-width: 1050px) {
   .nav-right-section li a {
-    font-size: 10px;
+    font-size: 15px;
   }
   .barra-navegacion {
     width: 90%;
@@ -661,7 +661,7 @@ main .card-body {
     justify-content: center;
   }
 }
-@media (max-width: 715px) {
+@media (max-width: 795px) {
   .nav-right-section {
     flex-direction: column;
   }

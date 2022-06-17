@@ -25,52 +25,33 @@ body {
 }
 
 /*Empieza Seccion Header del Index*/
-
     @import "Components/header";
-
 /*Fin Seccion Header del Index*/
 /*Empieza Seccion Bienvenidos a Clinica Index*/
-
     @import "Components/index";
-
 /* Fin Seccion Bienvenidos a Clinica index */
 /*Inicio seccion Main en Index*/
-
     @import "Components/index";
-
 /*Fin Seccion Main en Index*/
 /*Inicio seccion Footer*/
-
     @import "Components/footer";
-
 /*Fin de Seccion Footer*/
-
 /*Empieza Seccion Equipo*/
-
     @import "Components/Equipo";
-
 /*Fin Seccion Equipo*/
-
 /*Inicia Seccion Especialidades*/
-
     @import "Components/Especialidades";
-    
-
 /*Fin Seccion Especialidades*/
 /*Inicio Seccion Obras Sociales*/
-
     @import "Components/ObrasSociales";
-
 /* Fin Seccion Obras Sociales */
 /* Inicio Seccion Nosotros */
-
     @import "Components/Nosotros";
-
 /* Fin Seccion Nosotros */
 /*Seccion Media Queris*/
 @media (max-width: 1050px) {
     .nav-right-section li a{
-        font-size: 10px;
+        font-size: 15px;
     }
     .barra-navegacion{
         width: 90%;
@@ -95,8 +76,10 @@ body {
     .div4 ul li{
         justify-content: center;
     }
+    
 }
-@media (max-width: 715px){
+
+@media (max-width: 795px){
     .nav-right-section{
         flex-direction: column;
         li{
