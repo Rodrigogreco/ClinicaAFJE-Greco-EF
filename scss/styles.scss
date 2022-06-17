@@ -1,0 +1,121 @@
+//comentario solo de scss
+/*comentario en sass y en css*/
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+    header{
+        width: 100%;
+        color: white;
+        margin-top: 0px;
+        display: flex;
+        letter-spacing: 0.2em;
+        justify-content: space-between;
+        padding: 16px;
+    }
+}
+
+/*Empieza Seccion Header del Index*/
+
+    @import "Components/header";
+
+/*Fin Seccion Header del Index*/
+/*Empieza Seccion Bienvenidos a Clinica Index*/
+
+    @import "Components/index";
+
+/* Fin Seccion Bienvenidos a Clinica index */
+/*Inicio seccion Main en Index*/
+
+    @import "Components/index";
+
+/*Fin Seccion Main en Index*/
+/*Inicio seccion Footer*/
+
+    @import "Components/footer";
+
+/*Fin de Seccion Footer*/
+
+/*Empieza Seccion Equipo*/
+
+    @import "Components/Equipo";
+
+/*Fin Seccion Equipo*/
+
+/*Inicia Seccion Especialidades*/
+
+    @import "Components/Especialidades";
+    
+
+/*Fin Seccion Especialidades*/
+/*Inicio Seccion Obras Sociales*/
+
+    @import "Components/ObrasSociales";
+
+/* Fin Seccion Obras Sociales */
+/* Inicio Seccion Nosotros */
+
+    @import "Components/Nosotros";
+
+/* Fin Seccion Nosotros */
+/*Seccion Media Queris*/
+@media (max-width: 1050px) {
+    .nav-right-section li a{
+        font-size: 10px;
+    }
+    .barra-navegacion{
+        width: 90%;
+    }
+    .parent{
+        width: 90%;
+    }
+}
+@media (max-width:775px) {
+    .parent{
+        flex-direction: column;
+    }
+    .div1 ul li{
+        justify-content: center;
+    }
+    .div2 ul li{
+        justify-content: center;
+    }
+    .div3 ul li{
+        justify-content: center;
+    }
+    .div4 ul li{
+        justify-content: center;
+    }
+}
+@media (max-width: 715px){
+    .nav-right-section{
+        flex-direction: column;
+        li{
+            width: 100%;
+        }
+        a{
+            width: 100%;
+            text-align: right; 
+        }   
+    }
+}
+/*duda de porque el carousel cunado bajo a 715 no ocupa el 100%*/
+@media (max-width:715px){
+    .carousel-container{
+        width: 100%;
+    }
+    .aside-placeholder{
+        width: 100%;
+    }
+}
+
+
