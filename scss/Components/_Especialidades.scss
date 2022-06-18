@@ -19,6 +19,7 @@
         }
         .p-especialidad{
             @extend %display-JCC;
+            @extend %p-especialidad;
         }
     }
     .Especialidad2{
@@ -28,6 +29,7 @@
         }
         .p-especialidad2{
             @extend %display-JCC; 
+            @extend %p-especialidad;
         }
     }
 }
@@ -40,7 +42,7 @@
         }
         .p-especialidad3{
             @extend %display-JCC;
-            
+            @extend %p-especialidad;
         }
     }
     .especialidad4{
@@ -50,6 +52,7 @@
         }
         .p-especialidad4{
             @extend %display-JCC;
+            @extend %p-especialidad;
         }
         
     }

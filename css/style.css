@@ -97,6 +97,12 @@ a {
   justify-content: space-around;
 }
 
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
 .div3 ul, .div2 ul {
   display: block;
   width: 100%;
@@ -191,6 +197,12 @@ main .card-body {
   justify-content: space-around;
 }
 
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
 .div3 ul, .div2 ul {
   display: block;
   width: 100%;
@@ -283,6 +295,12 @@ main .card-body {
   display: flex;
   margin-top: 120px;
   justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
 }
 
 .div3 ul, .div2 ul {
@@ -387,6 +405,12 @@ main .card-body {
   justify-content: space-around;
 }
 
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -459,6 +483,12 @@ main .card-body {
   display: flex;
   margin-top: 120px;
   justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
 }
 
 .div2 ul, .div3 ul {
@@ -538,6 +568,12 @@ main .card-body {
   justify-content: space-around;
 }
 
+.section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4 {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
 .div2 ul, .div3 ul {
   display: block;
   width: 100%;
@@ -590,6 +626,12 @@ main .card-body {
   display: flex;
   margin-top: 120px;
   justify-content: space-around;
+}
+
+.section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4 {
+  align-items: center;
+  height: 80px;
+  width: 320px;
 }
 
 .div2 ul, .div3 ul {
