@@ -5,6 +5,7 @@
     /* lo mantiene centrado al div con lo de abajo */
     margin: 50px auto; 
     @extend %display-JCC; 
+    color: #c9c9c9;
     .p-obrassociales{
         transition-property: all;
         transition-duration: 2s;
@@ -17,10 +18,25 @@
 @import "../base/Extend";
 .div-img-ob1 {
      @extend %imagenesOB;
+     transition-property: all;
+     transition-duration: 2s;
+}
+.div-img-ob1:hover{
+    transform: scale(1.1);
 }
 .div-img-ob2{
     @extend %imagenesOB;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.div-img-ob2:hover{
+    transform: scale(1.1);
 }
 .div-img-ob3{
     @extend %imagenesOB;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.div-img-ob3:hover{
+    transform: scale(1.1);
 }

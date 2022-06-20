@@ -5,23 +5,28 @@ main{
     padding: 16px;
     @include Header-Index (flex,center,100%);
     .main-section{
-        @extend %display-JCC;
+      
         @include Header-Index (flex,center,100%);
         flex-direction: row;
         align-content: space-around;
         flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        justify-content: flex-start;
     }
     .carousel-container{
         width: 60%;
         @extend %display-JCC;
     }
     .aside-placeholder{
-        height: 500px;
         width: 400px;
         margin-left: 15px;
+        position: absolute;
+        right: 0px;
+        height: 100%;
     }
     .card-body{
-        height: 255px;
+        height: 100%;
     }
 }
 .section-index{
@@ -34,6 +39,6 @@ main{
         transition-duration: 2s ;
     }
     .bienvenidos:hover{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 }
