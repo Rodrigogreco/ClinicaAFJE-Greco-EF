@@ -89,13 +89,17 @@ body {
         a{
             width: 100%;
             text-align: right; 
-        }   
+        }  
+        .lm1{
+            flex-direction: column;
+        } 
     }
 }
 /*duda de porque el carousel cunado bajo a 715 no ocupa el 100%*/
 @media (max-width:1071px){
     main{
-        .main-section{ justify-content: center; }
+    .main-section{ 
+            justify-content: center; }
     .carousel-container{
         width: 100%;
     }

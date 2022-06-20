@@ -51,6 +51,7 @@ body header {
   border-radius: 60px;
   background-color: #6487c2;
   font-size: small;
+  flex-wrap: wrap;
 }
 
 .nav-right-section > *:hover {
@@ -755,6 +756,9 @@ main .card-body {
   .nav-right-section a {
     width: 100%;
     text-align: right;
+  }
+  .nav-right-section .lm1 {
+    flex-direction: column;
   }
 }
 /*duda de porque el carousel cunado bajo a 715 no ocupa el 100%*/
