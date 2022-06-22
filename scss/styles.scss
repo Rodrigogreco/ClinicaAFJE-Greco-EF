@@ -81,19 +81,24 @@ body {
     }
 }
 @media (max-width: 795px){
-    .nav-right-section{
-        flex-direction: column;
-        li{
-            width: 100%;
-        }
-        a{
-            width: 100%;
-            text-align: right; 
-        }  
-        .lm1{
+    .barra-navegacion{
+        .nav-right-section{
             flex-direction: column;
-        } 
+            margin-right: 10px;
+            padding-left: 10px;
+            li{
+                width: 100%;
+            }
+            a{
+                width: 100%;
+                text-align: right; 
+            }  
+            .lm1{
+                flex-direction: column;
+            } 
+        }
     }
+    
 }
 /*duda de porque el carousel cunado bajo a 715 no ocupa el 100%*/
 @media (max-width:1071px){
@@ -111,6 +116,11 @@ body {
     }
 }
 }
-
+@media (max-width:400px){
+    .nav-right-section{
+        letter-spacing: 0;
+    }
+    
+}
 
 

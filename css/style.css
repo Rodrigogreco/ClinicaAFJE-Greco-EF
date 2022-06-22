@@ -747,17 +747,19 @@ main .card-body {
   }
 }
 @media (max-width: 795px) {
-  .nav-right-section {
+  .barra-navegacion .nav-right-section {
     flex-direction: column;
+    margin-right: 10px;
+    padding-left: 10px;
   }
-  .nav-right-section li {
+  .barra-navegacion .nav-right-section li {
     width: 100%;
   }
-  .nav-right-section a {
+  .barra-navegacion .nav-right-section a {
     width: 100%;
     text-align: right;
   }
-  .nav-right-section .lm1 {
+  .barra-navegacion .nav-right-section .lm1 {
     flex-direction: column;
   }
 }
@@ -774,6 +776,11 @@ main .card-body {
     margin-left: unset;
     margin-top: 20px;
     width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .nav-right-section {
+    letter-spacing: 0;
   }
 }
 
