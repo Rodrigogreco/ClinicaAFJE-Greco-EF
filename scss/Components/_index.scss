@@ -26,6 +26,11 @@ main{
     }
     .card-body{
         height: 100%;
+        .btn{
+            background-color: nth($colores, 7 );
+            border-radius: 20px;
+            border: 1px solid black;
+        }
     }
 }
 .section-index{

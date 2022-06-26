@@ -62,6 +62,22 @@ body {
     .parent{
         width: 90%;
     }
+    .descripcion-nosotros{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .div-nosotros{
+            width: 100%;
+            margin-right: 0;
+            height: 50%;
+        }
+        .iframe{
+            width: 100%;
+            height: 50%;
+            margin-top: 0;
+        }
+    }
 }
 @media (max-width:775px) {
     .parent{
@@ -100,7 +116,6 @@ body {
     }
     
 }
-/*duda de porque el carousel cunado bajo a 715 no ocupa el 100%*/
 @media (max-width:1071px){
     main{
     .main-section{ 
@@ -122,5 +137,6 @@ body {
     }
     
 }
+
 
 

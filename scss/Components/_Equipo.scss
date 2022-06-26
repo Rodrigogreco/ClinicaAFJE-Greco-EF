@@ -7,12 +7,12 @@
 .doctoras-section{
     .parrafo{
         @extend %display-JCC; 
-        @include Equipo (32px, flex-end, "Montserrat"  sans-serif, 25px );
+        @include Equipo (32px, flex-end, "Clarika geo" "Trebuchet MS"  sans-serif, 25px );
         margin-top: 50px;
         color: #c9c9c9;
     }
     .parrafo1{
     @extend %display-JCC; 
-    @include Equipo (17px, flex-end, "Montserrat"  sans-serif, 100px );
+    @include Equipo (17px, flex-end, "Clarika geo""Trebuchet MS"  sans-serif, 100px );
     }
 }
